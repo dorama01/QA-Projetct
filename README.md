@@ -11,3 +11,10 @@
 cd backend
 npm install
 npm test
+
+## Frontend (UI) Tests
+
+cd frontend
+npm install
+npm install --save-dev cypress
+npx cypress run
